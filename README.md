@@ -44,17 +44,17 @@ Make a note of your RTSP stream URL
 
 #RTSP source
 
-host = rtsp://<camera IP>/live
+host = \*\*rtsp://<camera IP>/live\*\*
     
 #e.g.host = rtsp://192.168.127.29:9000/live
 
 [mqtt]
 
-broker = <mqtt broker location>
+broker = \*\*mqtt broker location\*\*
     
 #e.g broker = broker.hivemq.com
 
-port = <mqtt broker port>
+port = \*\*mqtt broker port\*\*
     
 #e.g. port = 1883
 
@@ -68,7 +68,7 @@ model = MobileNetSSD_deploy.caffemodel
 
 #set confidence level for detection
 
-conf = <0-1>
+conf = \*\*0-1\*\*
 
 #e.g for 20% confidence or above for detection
 

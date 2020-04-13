@@ -34,7 +34,8 @@ https://documentation.meraki.com/MV/Advanced_Configuration/External_RTSP
 
 # Dashboard configuration:
 
-cameras -> <your_camera> -> setting -> external RTSP -> yes
+Cameras -> <your_camera> -> Setting -> External RTSP -> yes
+
 Make a note of your RTSP stream URL 
 
 # Create a file "credentials.ini" with the following contents:
@@ -42,26 +43,35 @@ Make a note of your RTSP stream URL
 [camera]
 
 #RTSP source
+
 host = rtsp://<camera IP>/live
+    
 #e.g.host = rtsp://192.168.127.29:9000/live
 
 [mqtt]
 
 broker = <mqtt broker location>
+    
 #e.g broker = broker.hivemq.com
 
 port = <mqtt broker port>
+    
 #e.g. port = 1883
 
 [ssd]
 
 #set location of SSD model (preconfigured for this repo)
+
 prototxt = MobileNetSSD_deploy.prototxt.txt
+
 model = MobileNetSSD_deploy.caffemodel
 
 #set confidence level for detection
+
 conf = <0-1>
+
 #e.g for 20% confidence or above for detection
+
 #conf = 0.2
 
 ## Launch the script:

@@ -1,4 +1,4 @@
- #!/usr/bin/env python
+#!/usr/bin/env python
 
 # USAGE
 # python real_time_object_detection.py
@@ -7,16 +7,9 @@ import sys
 import configparser
 import time
 import numpy as np
-
-
 import imutils
 import cv2
-
 import paho.mqtt.client as mqttClient
-
-
-
-
 
 ### Gather configuration parameters
 def gather_arg():
@@ -131,7 +124,6 @@ while True:
             cv2.putText(frame, label, (startX, y),
                 cv2.FONT_HERSHEY_SIMPLEX, 0.5, COLORS[idx], 2)
 
-
     # show the output frame
     cv2.imshow("Frame", frame)
     key = cv2.waitKey(1) & 0xFF
@@ -140,6 +132,6 @@ while True:
     if key == ord("q"):
         break
 
-
 #cleanup
 cv2.destroyAllWindows()
+

@@ -82,5 +82,5 @@ conf = \*\*0-1\*\*
 
 ## Launch the script:
 
-    $python3 
+    $python3 MV_OpenCV.py
 

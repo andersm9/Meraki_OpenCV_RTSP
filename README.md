@@ -83,6 +83,7 @@ conf = \*\*0-1\*\*
 ## Launch the script:
 
     $python3 MV_OpenCV.py
-
-
+## Example Local Video
+![Diagram](images/Picture2.png)
+## Example MQTT stream
 ![Diagram](images/Picture1.png)

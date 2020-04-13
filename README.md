@@ -46,7 +46,7 @@ Make a note of your RTSP stream URL
 
 host = \*\*rtsp://<camera IP>/live\*\*
     
-#e.g.host = rtsp://192.168.127.29:9000/live
+#e.g.host = rtsp:\*\*/\*\*/192.168.127.29:9000\*\*/live
 
 [mqtt]
 

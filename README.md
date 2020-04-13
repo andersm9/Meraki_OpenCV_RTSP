@@ -2,6 +2,12 @@
 
 This document provides a step by step guide to integrating the RTSP output from a Meraki MV camera, with a pretrained OpenCV 3.3 dnn module, running SSD Detection
 
+The script shall:
+
+* launch a local video stream, with a a
+* print to cli the object and confidence of detected objects
+* publish to an MQTT broker the object and confidence of objects detected, using the topic "python/test"
+
 
 # Dependencies
 

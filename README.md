@@ -4,8 +4,8 @@ This document provides a step by step guide to integrating the RTSP output from 
 
 The script shall:
 
-* launch a local video stream, with a a
-* print to cli the object and confidence of detected objects
+* launch a local video stream, with a bounding box for detected objects and associated confidence score
+* print to cli the object and confidence score  of detected objects
 * publish to an MQTT broker the object and confidence of objects detected, using the topic "python/test"
 
 

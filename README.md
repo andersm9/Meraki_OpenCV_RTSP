@@ -85,4 +85,4 @@ conf = \*\*0-1\*\*
     $python3 MV_OpenCV.py
 
 
-![Diagram](Imagers/Picture1.png)
+![Diagram](images/Picture1.png)

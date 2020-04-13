@@ -32,13 +32,12 @@ https://documentation.meraki.com/MV/Advanced_Configuration/External_RTSP
 ### Install the requirements:
     $pip3 install -r requirements.txt
 
-## Create a file "credentials.ini" with the following contents:
-
 # Dashboard configuration:
 
 cameras -> <your_camera> -> setting -> external RTSP -> yes
 Make a note of your RTSP stream URL 
-# OpenCV Arguements
+
+# Create a file "credentials.ini" with the following contents:
 
 [camera]
 

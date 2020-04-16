@@ -8,6 +8,7 @@ The script shall:
 * print to cli the object and confidence score  of detected objects
 * publish to an MQTT broker the object and confidence of objects detected, using the topic "python/test"
 
+This was developed and tested using a Macbook Pro. The detection time for objects entering the frame to being reported on the video and MQTT stream is of the order 1.5-2.0 seconds.
 
 # Dependencies
 

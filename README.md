@@ -12,7 +12,7 @@ This was developed and tested using a Macbook Pro. The detection time for object
 
 # Dependencies
 ## Python
-This script was develeoped using python version 3.7.3
+This script was developed using python version 3.7.3
 
 ## Meraki Camera Requirements
 Firmware version 4.2 or newer
